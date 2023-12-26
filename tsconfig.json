@@ -19,7 +19,10 @@
         "strict": true,
         "noUnusedLocals": true,
         "noUnusedParameters": true,
-        "noFallthroughCasesInSwitch": true
+        "noFallthroughCasesInSwitch": true,
+
+        /* Plugins */
+        "plugins": [{ "name": "ts-css-modules-vite-plugin" }]
     },
     "include": ["src"],
     "references": [{ "path": "./tsconfig.node.json" }]
