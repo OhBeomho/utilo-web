@@ -1,0 +1,68 @@
+[
+  {
+    "name": "help",
+    "desc": "명령어 목록 표시"
+  },
+  {
+    "name": "ping",
+    "desc": "Pong! 으로 답장"
+  },
+  {
+    "name": "info",
+    "desc": "봇 정보 표시"
+  },
+  {
+    "name": "random-number",
+    "desc": "무작위 숫자 생성"
+  },
+  {
+    "name": "serverinfo",
+    "desc": "서버 정보 표시"
+  },
+  {
+    "name": "kick",
+    "desc": "사용자를 서버에서 추방"
+  },
+  {
+    "name": "ban",
+    "desc": "사용자를 서버에서 차단"
+  },
+  {
+    "name": "clean",
+    "desc": "지정된 개수만큼 메시지를 삭제"
+  },
+  {
+    "name": "role",
+    "desc": "역할 관련 명령어",
+    "subcommands": [
+      {
+        "name": "add-user",
+        "desc": "역할을 사용자에게 추가"
+      },
+      {
+        "name": "remove-user",
+        "desc": "역할을 사용자에게서 제거"
+      },
+      {
+        "name": "create",
+        "desc": "역할 생성"
+      },
+      {
+        "name": "delete",
+        "desc": "역할 삭제"
+      },
+      {
+        "name": "color",
+        "desc": "역할 색상 변경"
+      },
+      {
+        "name": "rename",
+        "desc": "역할 이름 변경"
+      },
+      {
+        "name": "list",
+        "desc": "서버의 역할 목록 표시"
+      }
+    ]
+  }
+]

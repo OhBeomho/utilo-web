@@ -1,0 +1,20 @@
+.treeNode,
+.lastTreeNode {
+  width: 10px;
+  height: 10px;
+  border-width: 0 0 2px 2px;
+  border-style: solid;
+  border-color: white;
+  translate: 0 2px;
+  margin-right: 4px;
+  margin-left: 10px;
+}
+
+.treeNode::after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-left: 2px solid white;
+  translate: -1.6px 10px;
+}
